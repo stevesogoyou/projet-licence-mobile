@@ -1,0 +1,64 @@
+name: voiture
+description: Projet pour la soutenance
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.2
+  google_fonts: ^6.1.0
+  local_auth: ^2.1.7
+  flutter_styled_toast: ^2.1.3
+  #grouped_buttons: ^1.0.4
+  flutter_inset_box_shadow: ^1.0.8
+  chewie: ^1.7.0
+  adaptive_theme: ^3.4.0
+  rive: ^0.11.15
+  google_nav_bar: ^5.0.6
+  awesome_dialog: ^3.1.0
+  dd: ^0.0.1
+  flutter_neumorphic: ^3.2.0
+  flutter_svg: ^2.0.9
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+  flutter_paygateglobal: ^0.1.3
+  timeline_tile: ^2.0.0
+#  flutter_launcher_icons: ^0.13.1
+#
+#  flutter_launcher_icons:
+#    android: "launcher_icon"
+#    ios: true
+#    image_path: "assets/icon/icon.png"
+#    min_sdk_android: 21 # android min sdk min:16, default 21
+#    windows:
+#      generate: true
+#      image_path: "path/to/image.png"
+#      icon_size: 48 # min:48, max:256, default: 48
+#
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/animeted/
+
